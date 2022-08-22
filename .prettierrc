@@ -1,0 +1,12 @@
+
+module.exports = {
+  printWidth: 120, // umbral de cadena de nueva línea
+  semi: true, // agrega un punto y coma al final de la oración
+  singleQuote: true, // usa comillas simples
+  trailingComma: 'none', // agrega una coma al último elemento del objeto
+  bracketSpacing: true, // objeto, matriz más espacios
+  jsxBracketSameLine: false, // jsx> si comenzar una nueva línea
+  arrowParens: 'avoid', // (x) => () si debe haber paréntesis
+  requirePragma: false, // si comentar para decidir si formatear el código
+  proseWrap: 'preserve' // si envolver
+};
